@@ -17,9 +17,7 @@
 
 typedef struct VolumeControlBlock{
     unsigned int signature;
-	Int blockSize;
-	Int totalBlocks;
-	Int freeBlocks;
-	Int rootDirectoryBlock
-
+	unsigned int blockSize;
+	unsigned int totalBlocks;
+	int freeBlocks;//??
 }VCB;
